@@ -1,74 +1,105 @@
-    <!DOCTYPE html>
-    <html lang="en">
-    
-    <head>
-        <meta charset="UTF-8">
-        <meta http-equiv="X-UA-Compatible" content="IE=edge">
-        <meta name="viewport" content="width=device-width, initial-scale=1.0">
-        <title>Weather Comparison</title>
+<!DOCTYPE html>
+<html lang="en">
 
-        <!--Bootstrap-->
-        <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
-        <link rel="stylesheet" href="style.css">
-    </head>
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather Comparison</title>
 
+    <!--Bootstrap-->
+    <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+</head>
 
-    <body>
-        <main class="TopPage">
-            <div class="row">
-                <header>
-                    <h1 class="Home"> 
-                        <a class="Home" href ="../index.html"> </a> 
-                    </h1>
-                </header>
-              
+<body>
+    <div class="sidenav navbar navbar-expand-md navbar-light">
+        <a class= "nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle = "dropdown" aria-expanded="false"> Menu</a>
+            <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
+                <li><a class ="home" href = "#"> Home </a></li>
+                <li><a class = "Page 1 drop-down" href= "../1/index.html"> Max Temp</a></li>
+                <li><a class = "Page 2 drop-down" href= "../2/index.html"> Humidity</a></li>
+                <li><a class = "Page 3 drop-down" href= "../3/index.html"> Cloudiness</a></li>
+                <li><a class = "Page 4 drop-down" href= "../4/index.html"> Wind Speed </a></li>
+            </ul>
+            <a class= "Page 5 drop-down" href= "../5.index.html"> All Data </a>
+    </div>
+
+    <div class="row"> 
+        <div class = "col">
+            <div class = "overview">
+                <h1 style = "text-align: center; font-weight: bolder;">Weather Data </h1>
+                <hr>
+                <p> The closer the city is to the equator, the higher the temperature. 
+                    Also, the northern hemisphere cities are getting colder than the southern hemispherer cities.
+                    Factors to consider:  Winter vs Summer in the hemispheres. 
+                </p>
+
             </div>
-        <div class="container"> 
-
-            <nav> 
-                <div class="sidenav navbar navbar-expand-lg navbar-light bg-light">
-                    <a class= "nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle = "dropdown" aria-expanded="false"> Menu</a>
-                        <ul class="dropdown-menu" aria-labelledby="navbarDropdown"> 
-                            <li><a class ="Home" href = "#"> Home </a></li>
-                            <li><a class = "Page 1 drop-down" href= "../1/index.html"> Max Temp</a></li>
-                            <li><a class = "Page 2 drop-down" href= "../2/index.html"> Humidity</a></li>
-                            <li><a class = "Page 3 drop-down" href= "../3/index.html"> Cloudiness</a></li>
-                            <li><a class = "Page 4 drop-down" href= "../4/index.html"> Wind Speed </a></li>
-                        </ul>
-                        <a class= "Page 5 drop-down" href= "../5.index.html"> All Data </a>
-                </div>
-            </nav>
-            <body>
-                <div class="row"> 
-                    <div class = "col">
-                        <div class = "overview">
-                            <h1 style = "text-align: center; font-size: 14px; font-weight: bolder;">Weather Data </h1>
-                            <hr>
-                            <p> The closer the city is to the equator, the higher the temperature. 
-                                Also, the northern hemisphere cities are getting colder than the southern hemispherer cities.
-                                Factors to consider:  Winter vs Summer in the hemispheres. 
-                            </p>
-
-                        </div>
-                    </div>
-                </div>
-
-                <div class="row">
-                    <div class="col">
-                        <div class="comparison">
-                            <h3> ScatterPlot Comparison </h3>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-lg-6 col-sm-12 text-center">
-                    <p class= "picture">
-                        
-                    </p>
-                </div>
-            </body>
         </div>
+    </div>
 
-        
-    </body>
-    </html>
+    <div class="row">
+        <div class="col">
+            <div class="comparison">
+                <h3> ScatterPlot Comparison </h3>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-lg-6 col-sm-12 text-center">
+            <p class= "comparison">
+                <a href="">
+                    <img src=""
+                    class=""
+                    alt="">
+                </a>
+            
+            </p>
+        </div>
+    
+
+        <div class="col-lg-6 col-sm-12 text-center">
+            <p class="comparison">
+                <a href="">
+                    <img src=""
+                    class=""
+                    alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+    
+    
+    <div class="row">
+        <div class="col-lg-6 col-sm-12 text-center">
+            <p class="comparison">
+                <a href="">
+                    <img src=""
+                    class=""
+                    alt="">
+                </a>
+            </p>
+        </div>
+        <div class="col-lg-6 col-sm-12 text-center">
+            <p class="comparison">
+                <a href="">
+                    <img src=""
+                    class=""
+                    alt="">
+                </a>
+            </p>
+        </div>
+    </div>
+<script>
+    function myFunction() {
+
+        document.getElementById("myDropdown").classList.toggle("show");
+    }
+</script>
+</body>
+</div>
+
+</main> 
+</html>

@@ -1,0 +1,107 @@
+header {
+    position: fixed;
+    top:0;
+    text-align: center;
+    height: 0px;
+    background-color: rgb(0, 0, 255);
+    color: white;
+    font-weight: bolder;
+    font-size: 30px;
+}
+
+body {
+    background:#2b8fa8;
+    background-size: cover;
+    
+}
+
+
+
+.overview {
+    background-color: rgb(105, 103, 103);
+    margin-top: 70px;
+    padding-left: 30px;
+    box-shadow: 0 0 50px 15px grey;
+}
+
+.overview h1 {
+    padding: 10px;
+    font-size: 30px;
+    background-color: rgb(64, 152, 211);
+}
+
+.overview p {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    font-size: 20px;
+    background-color: rgb(105, 103, 103);
+}
+
+.comparison {
+    text-align: center;
+    background-color: rgb(116, 116, 116);
+    box-shadow: none 20px 50px 15px grey;
+
+}
+.comparison h3 {
+    padding-top: 10px;
+    padding-bottom: 10px;
+
+}
+
+.comparison p {
+    box-shadow: 0 0 50px 15px grey;
+}
+
+.TopPage {
+    color:white;
+    font-weight: bolder;
+    padding-right: 15px;
+    background: rgb(31, 31, 31)
+}
+
+.sidenav {
+    position:fixed; 
+    background:  #34b414;
+    height: 70px;
+    color: white;
+    padding-top: 5px;
+}
+
+.sidenav a {
+    padding 6px 6px 6px 6px;
+    right:0;
+    text-decoration: none;
+    color:white;
+    display: block;
+    background: #34b414;
+    border-radius: 25px;
+    text-align:center;
+    font-size: 25px;
+}
+.sidenav a:hover {
+    color:black;
+    background-color: white;
+}
+
+.home {
+    border-radius: 20px;
+    background: rgb(105, 103, 103);
+    padding: 20px;
+    padding-top: 20px;
+    width: 250px;
+    height: 71px;
+    color: rgb(235, 235, 235);
+    text-align: left;
+    cursor: pointer;
+}
+.home a {
+    border-radius: 25px;
+    background: #9bdd59;
+    padding: 30px;
+    padding-top: 20px;
+    width: 250px;
+    height: 70px;  
+    color:white;
+    cursor:pointer;
+}
